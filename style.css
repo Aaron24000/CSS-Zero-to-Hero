@@ -1,3 +1,51 @@
 body {
     background: darkturquoise;
 }
+
+.title {
+    color: black;
+}
+
+.subtitle:hover {
+    color: white;
+}
+
+#class-selector {
+    color: teal;
+}
+
+li:first-child {
+    color: green
+}
+
+li:first-child {
+    color: green
+}
+
+/* #salah-king:visited {
+    color:purple;
+}
+
+#salah-king:link {
+    color: blue;
+} */
+
+textarea + button:hover {
+    color: turquoise;
+}
+
+ul > li {
+    color:blue
+}
+
+a[href] {
+    background-color: orange;
+}
+
+img[src] {
+    border: 10px solid black;
+}
+
+h2[class~=example-subtitle] {
+    background: rgb(202, 50, 50);
+}
