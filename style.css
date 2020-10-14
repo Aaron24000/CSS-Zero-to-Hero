@@ -1,5 +1,5 @@
 body {
-    background: darkturquoise;
+    background-image: url("Liverpool.jpeg");
 }
 
 .title {
@@ -48,4 +48,12 @@ img[src] {
 
 h2[class~=example-subtitle] {
     background: rgb(202, 50, 50);
+}
+
+#title {
+
+}
+
+.para-text {
+    color: white;
 }
