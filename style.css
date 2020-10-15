@@ -1,5 +1,6 @@
 body {
-    background-image: url("Liverpool.jpeg");
+    background-color: rgba(70, 130, 180, 0.5);
+    background-size: 500px;
 }
 
 .title {
@@ -51,9 +52,11 @@ h2[class~=example-subtitle] {
 }
 
 #title {
+    color: black;
 
 }
 
 .para-text {
-    color: white;
+    background: radial-gradient(circle, yellow 50%, black 20%, white 30%);
+    font-size: 1vw;
 }
