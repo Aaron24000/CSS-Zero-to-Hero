@@ -1,11 +1,26 @@
 body {
     background-color: rgba(70, 130, 180, 0.5);
     background-size: 500px;
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
 }
 
 .title {
     color: black;
+}
+
+#savage {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#lfc {
+    height: 350px;
+    width: 60vw;
+
+    background: radial-gradient(circle, red 20%, blue 40%, green 40%);
+    border: 2px solid rgb(154, 174, 200);
+    margin: 40px;
 }
 
 .subtitle:hover {
