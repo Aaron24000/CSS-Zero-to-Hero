@@ -1,6 +1,7 @@
 body {
     background-color: rgba(70, 130, 180, 0.5);
     background-size: 500px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .title {
@@ -23,7 +24,7 @@ li:first-child {
     color: green
 }
 
-/* #salah-king:visited {
+#salah-king:visited {
     color:purple;
 }
 
@@ -59,4 +60,8 @@ h2[class~=example-subtitle] {
 .para-text {
     background: radial-gradient(circle, yellow 50%, black 20%, white 30%);
     font-size: 1vw;
+}
+
+.top-billin {
+    text-decoration: overline;
 }
