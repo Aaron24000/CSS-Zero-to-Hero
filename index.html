@@ -45,7 +45,7 @@
         nec. Interdum posuere lorem ipsum dolor sit. Elementum nibh tellus molestie nunc. Proin libero nunc consequat
         interdum varius sit. Posuere morbi leo urna molestie at. Amet dictum sit amet justo.
     </p>
-    <ul>
+    <ul class="list">
         <h1>Testing out a list</h1>
         <li>apples
             <ul>
@@ -60,6 +60,52 @@
     </ul>
     <textarea>Text example</textarea>
     <button>Example</button>
+
+    <div class="container">
+        <div class="container-item" style="order: 1;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 100px;
+        align-self: flex-start;
+        ">A</div>
+        <div class="container-item" style="order: 2;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 100px;
+        align-self: center;
+        ">B</div>
+        <div class="container-item" style="order: 3;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 100px;
+        align-self: flex-end;
+        ">C</div>
+        <div class="container-item" style="order: 4;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 100px;
+        align-self: center;
+        ">D</div>
+        <div class="container-item" style="order: 5;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 100px;
+        align-self: flex-start;
+        ">E</div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item" style=
+        "background: greenyellow;
+        grid-column: 1 / span 2;
+        grid-row: 1 / 2;
+        grid-area: 2 / 1;">1</div>
+        <div class="grid-item" style="background: red;">2</div>
+        <div class="grid-item" style="background:orange;">3</div>
+        <div class="grid-item" style="background:blue;">4</div>
+        <div class="grid-item" style="background:purple;">5</div>
+        <div class="grid-item" style="background: brown;">6</div>
+
+    </div>
 </body>
 
 </html>
